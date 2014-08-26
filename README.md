@@ -12,6 +12,8 @@ Background
 --------------
 On a multi-month trip abroad, I wanted to keep a visual log of where I was going during my trip. Rather than use some purpose-built battery hogging app, I decided to make use of Google's less publicised but ever-present *Orwellian Asset Tracker*, **Location History** or rather of its export capability.
 
+This project maps the data points in a single KML file, onto a Google Map. It also outputs the total distance.
+
 
 Usage
 --------------
@@ -30,6 +32,8 @@ Note: I'm not affiliated with *EpochConverter.com* in any way, but it came up in
 ```
 https://maps.google.com/locationhistory/b/0/kml?startTime=[start]&endTime=[end]
 ```
+
+**Note: You need to be logged in as the user that you want the location history of before you open the URL.** You also need to have Location History *enabled* on one or more of your devices for any data to appear. If you get nothing, turn it on and walk around for a day or so then try again.
 
 - **Step 4** - Download the file by copy-pasting the URL into a browser and hitting enter, you should get a file named something like this:
 
