@@ -3,6 +3,8 @@ Location History Parser
 
 Version 1.0
 
+![Screengrab of the demo page](http://mattfenlon.com/img/Screen%20Shot%202014-12-20%20at%2017.17.51.png)
+
 Intro.
 --------------
 This project parses a properly-formatted '.kml' file in PHP. By properly formatted, I mean that as of the day of publishing it works with a straight-exported KML file downloaded from the *Location History* tool.
