@@ -140,7 +140,7 @@ HEREDOC;
 	$i++;
 }
 
-	echo round(($total_distance_m/1000),0) . " kilometres<br/>";
+	echo "<div style=\"text-align:center;font-family:Verdana;font-weight:bold;font-size:24px;\"\">" . round(($total_distance_m/1000),0) . " kilometres</div>";
 
 	$polyline_points = rtrim(trim($polyline_points), ",");
 

@@ -7,7 +7,7 @@ $page = <<< HEREDOC
 <head>
 	<meta charset="utf-8">
 
-	<title>The HTML5 Herald</title>
+	<title>Location History (/KML) Parser</title>
 	<meta name="description" content="The HTML5 Herald">
 	<meta name="author" content="SitePoint">
 
@@ -38,13 +38,19 @@ $page = <<< HEREDOC
 					<a href="polyline.php">Polyline of all points</a>
 				</div>
 
+				<iframe height="300px" width="100%" src="polyline.php"></iframe>
+
 				<div>
 					<a href="markers.php">Markers of (nearly) all points - see the code for what I mean, some are skipped for memory hogging reasons as I developed this with 6 months' worth of data points!...</a>
 				</div>
 
+				<iframe height="300px" width="100%" src="markers.php"></iframe>
+
 				<div>
 					<a href="distances.php">Distance calculation - it sums up the total distance travelled along the path.</a>
 				</div>
+
+				<iframe style="border:0px;" src="distances.php"></iframe>
 
 			</div>
 
