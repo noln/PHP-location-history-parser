@@ -1,9 +1,6 @@
 Location History Parser
 ==============
 
-*Update 22 Dec 2014*
-Added the subpages output inline with iFrames. Quick and dirty, but confirms whether you've added your history file correctly at a glance.
-
 ![Screengrab of the demo page](http://mattfenlon.com/img/Screen%20Shot%202014-12-22%20at%2009.35.25.png)
 
 Intro.
